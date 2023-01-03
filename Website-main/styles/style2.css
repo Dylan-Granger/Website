@@ -1,0 +1,131 @@
+@font-face {
+src: url('../fonts/Shojumaru-Regular.ttf')format('truetype');
+font-family: sho;
+}
+
+.navbar {
+    position: absolute;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    font-family: sho;
+    border-radius: 25px;
+    transform: translateX(-50%);
+}
+
+.navbar-links ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar-links li a {
+    display: block;
+    padding: 1rem;
+    color: white;
+}
+
+.toggle-button {
+    position: fixed;
+    top: .75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+
+.toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+#container {
+    height: 400px;
+    width: 400px;
+    position: relative;
+}
+
+#image {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 200%;
+    height: 100%;
+}
+
+#text{
+    z-index: 100;
+    position: absolute;
+    color: white;
+    font-size: 24px;
+    left: 100px;
+    top: 150px;
+}
+
+.Title {
+    font-family: sho;
+}
+
+
+#mint_page{
+    background-image: url('/images/Mint.png');
+    background-position: 0px 0px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+#main_page {
+    background-image: url('/images/BG2.png');
+    background-color: #90ee90; 
+    background-position: 0px 0px;
+    background-size: contain;
+    background-repeat: repeat;
+}
+
+.image1 {
+    background-image: url("/images/image2.png");
+    width: 500px;
+    height: 500px;
+    background-repeat: no-repeat;
+    position: fixed;
+    transform: translate(-130%, 10%);
+    visibility: hidden;
+    
+
+}
+
+.image2 {
+    background-image: url("/images/image3.png");
+    width: 500px;
+    height: 500px;
+    background-repeat: no-repeat;
+    position: fixed;
+    transform: translate(-130%, 90%);
+    visibility: hidden;
+
+}
+
+.image3 {
+    background-image: url("/images/image4.png");
+    width: 500px;
+    height: 500px;
+    background-repeat: no-repeat;
+    position: fixed;
+    transform: translate(159%, 10%);
+    visibility: hidden;
+}
+
+.image4 {
+    background-image: url("/images/image1.png");
+    width: 500px;
+    height: 500px;
+    background-repeat: no-repeat;
+    position: fixed;
+    transform: translate(159%, 90%);
+    visibility: hidden;
+}
